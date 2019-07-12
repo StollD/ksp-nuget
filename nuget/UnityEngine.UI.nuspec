@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>UnityEngine.UI</id>
+    <version>{KSP-VERSION}</version>
+    <authors>Squad</authors>
+    <owners>TMSP</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Dummy assembly for compiling KSP mods.</description>
+    <releaseNotes></releaseNotes>
+    <tags>KSP</tags>
+    <dependencies>
+      <dependency id="UnityEngine" version="[{KSP-VERSION}]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="UnityEngine.UI.dll" target="lib/net35/" />
+  </files>
+</package>

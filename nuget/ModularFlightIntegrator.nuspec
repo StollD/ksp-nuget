@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ModularFlightIntegrator</id>
+    <version>1.2.6.5</version>
+    <authors>sarbian, ferram4, Starwaster</authors>
+    <owners>TMSP</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/sarbian/ModularFlightIntegrator</projectUrl>
+    <description>ModularFlightIntegrator is a VesselModules that allows multiples mods to override or insert code into various call of the stock FlightIntegrator.</description>
+    <releaseNotes>ModularFlightIntegrator 1.2.6</releaseNotes>
+    <copyright>Copyright sarbian, ferram4, Starwaster 2017</copyright>
+    <tags>Modular, Flight, Integrator</tags>
+    <dependencies>
+      <dependency id="Assembly-CSharp" version="[{KSP-VERSION}]" />
+      <dependency id="UnityEngine" version="[{KSP-VERSION}]" />
+      <dependency id="UnityEngine.UI" version="[{KSP-VERSION}]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="ModularFlightIntegrator.dll" target="lib/net35/" />
+  </files>
+</package>
