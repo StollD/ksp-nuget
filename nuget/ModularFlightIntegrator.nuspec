@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>ModularFlightIntegrator</id>
-    <version>1.2.6.5</version>
+    <version>1.2.6.6</version>
     <authors>sarbian, ferram4, Starwaster</authors>
     <owners>TMSP</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -13,12 +13,12 @@
     <copyright>Copyright sarbian, ferram4, Starwaster 2017</copyright>
     <tags>Modular, Flight, Integrator</tags>
     <dependencies>
-      <dependency id="Assembly-CSharp" version="[{KSP-VERSION}]" />
-      <dependency id="UnityEngine" version="[{KSP-VERSION}]" />
-      <dependency id="UnityEngine.UI" version="[{KSP-VERSION}]" />
+      <dependency id="Assembly-CSharp" version="{KSP-VERSION}" />
+      <dependency id="UnityEngine.CoreModule" version="{KSP-VERSION}" />
+      <dependency id="UnityEngine.UI" version="{KSP-VERSION}" />
     </dependencies>
   </metadata>
   <files>
-    <file src="ModularFlightIntegrator.dll" target="lib/net35/" />
+    <file src="ModularFlightIntegrator.dll" target="lib/net40/" />
   </files>
 </package>

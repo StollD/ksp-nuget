@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
-    <id>UnityEngine.UI</id>
+    <id>UnityEngine.CoreModule</id>
     <version>{KSP-VERSION}</version>
     <authors>Unity</authors>
     <owners>TMSP</owners>
@@ -9,11 +9,9 @@
     <description>Dummy assembly for compiling KSP mods.</description>
     <releaseNotes></releaseNotes>
     <tags>KSP, Unity</tags>
-    <dependencies>
-      <dependency id="UnityEngine.CoreModule" version="[{KSP-VERSION}]" />
-    </dependencies>
+    <dependencies></dependencies>
   </metadata>
   <files>
-    <file src="UnityEngine.UI.dll" target="lib/net40/" />
+    <file src="UnityEngine.CoreModule.dll" target="lib/net40/" />
   </files>
 </package>

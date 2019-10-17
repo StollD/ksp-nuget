@@ -10,11 +10,11 @@
     <releaseNotes></releaseNotes>
     <tags>KSP</tags>
     <dependencies>
-      <dependency id="UnityEngine" version="[{KSP-VERSION}]" />
+      <dependency id="UnityEngine.CoreModule" version="[{KSP-VERSION}]" />
       <dependency id="UnityEngine.UI" version="[{KSP-VERSION}]" />
     </dependencies>
   </metadata>
   <files>
-    <file src="Assembly-CSharp-firstpass.dll" target="lib/net35/" />
+    <file src="Assembly-CSharp-firstpass.dll" target="lib/net40/" />
   </files>
 </package>

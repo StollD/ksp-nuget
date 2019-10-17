@@ -1,20 +1,19 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
-    <id>Assembly-CSharp</id>
+    <id>UnityEngine.ImageConversionModule</id>
     <version>{KSP-VERSION}</version>
-    <authors>Squad</authors>
+    <authors>Unity</authors>
     <owners>TMSP</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Dummy assembly for compiling KSP mods.</description>
     <releaseNotes></releaseNotes>
-    <tags>KSP</tags>
+    <tags>KSP, Unity</tags>
     <dependencies>
       <dependency id="UnityEngine.CoreModule" version="[{KSP-VERSION}]" />
-      <dependency id="UnityEngine.UI" version="[{KSP-VERSION}]" />
     </dependencies>
   </metadata>
   <files>
-    <file src="Assembly-CSharp.dll" target="lib/net40/" />
+    <file src="UnityEngine.ImageConversionModule.dll" target="lib/net40/" />
   </files>
 </package>
