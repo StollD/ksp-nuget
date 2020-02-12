@@ -11,16 +11,20 @@ array()
 	done
 }
 
-ASSEMBLIES=$(array					\
-	"Assembly-CSharp.dll"				\
-	"Assembly-CSharp-firstpass.dll"			\
-	"UnityEngine.AssetBundleModule.dll"		\
-	"UnityEngine.CoreModule.dll"			\
-	"UnityEngine.ImageConversionModule.dll"		\
-	"UnityEngine.PhysicsModule.dll"			\
-	"UnityEngine.SharedInternalsModule.dll"		\
-	"UnityEngine.UI.dll"				\
-	"UnityEngine.UnityWebRequestWWWModule.dll"	\
+ASSEMBLIES=$(array                                      \
+	"Assembly-CSharp.dll"                           \
+	"Assembly-CSharp-firstpass.dll"                 \
+	"UnityEngine.AssetBundleModule.dll"             \
+	"UnityEngine.CoreModule.dll"                    \
+	"UnityEngine.ImageConversionModule.dll"         \
+	"UnityEngine.IMGUIModule.dll"                   \
+	"UnityEngine.InputLegacyModule.dll"             \
+	"UnityEngine.PhysicsModule.dll"                 \
+	"UnityEngine.SharedInternalsModule.dll"         \
+	"UnityEngine.TextRenderingModule.dll"           \
+	"UnityEngine.UI.dll"                            \
+	"UnityEngine.UIModule.dll"                      \
+	"UnityEngine.UnityWebRequestWWWModule.dll"      \
 )
 
 mkdir $DIR/out

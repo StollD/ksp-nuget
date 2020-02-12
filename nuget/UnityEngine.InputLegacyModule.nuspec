@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>UnityEngine.InputLegacyModule</id>
+    <version>{KSP-VERSION}</version>
+    <authors>Unity</authors>
+    <owners>TMSP</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Dummy assembly for compiling KSP mods.</description>
+    <releaseNotes></releaseNotes>
+    <tags>KSP, Unity</tags>
+    <dependencies>
+      <dependency id="UnityEngine.CoreModule" version="[{KSP-VERSION}]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="UnityEngine.InputLegacyModule.dll" target="lib/net40/" />
+  </files>
+</package>
